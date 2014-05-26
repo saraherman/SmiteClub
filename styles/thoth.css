@@ -1,0 +1,431 @@
+
+
+body{
+	margin: 0px;
+}
+
+.background{
+	background-image: url('../images/shadow.jpg');
+	background-attachment:fixed;
+	min-height: 955px;
+}
+
+.container{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 1070px;
+	margin: 0px auto;
+	padding: 0px 5px;
+}
+
+.header {
+	min-height: 50px;
+	/*background-color: #19199E;*/
+	border-bottom: 2px groove #ECEBBE;
+	color: #DFD8B4;
+}
+
+.header .title{
+	width: auto;
+	display: inline-block;
+}
+
+.header p, .header a{
+	color:	#3C64C8;
+	text-decoration: none;
+}
+
+.header a:hover{
+	color: #91ADF3;
+}
+.header p{
+	width: auto;
+	float: right;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.border{
+	background-image: url('../images/decowide.png');
+	background-repeat: repeat;
+	width: 100%;
+	height: 12px;
+	clear: both;
+}
+
+.content > div{
+/*	margin-top: 50px;
+*/}
+
+
+
+.largepic{
+	width: 250px;
+	height: 330px;
+	border: 5px groove #ECEBBE;
+	margin-left: 10px;
+	box-shadow:0px 0px 40px 0px #000;
+}
+.one-third{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+p, h1, h2, h3{
+	color: #ECEBBE;
+	text-shadow:2px 1px 25px #000;
+}
+.search{
+	float: right;
+	margin-top: 10px;
+	margin-right: 3%;
+}
+
+.search input[type='submit']{
+	background-image: url(../images/eye_of_ra.png);
+	width: 45px;
+	height: 45px;
+	background-repeat: no-repeat;
+	border:none;
+	background-color: transparent;
+	position: relative;
+	top: 6px;
+	cursor: pointer;
+}
+
+.search input[type='submit']:focus{
+	outline: 0;
+ 	outline-color: transparent;
+ 	outline-style: none;
+	border: none;
+	box-shadow: none;
+}
+
+.search input[type='text']{
+	color: #C7C6A7;
+	display: inline-block;
+	/*width: 190px;*/
+	width: 110px;
+	background: transparent;
+	border:none;
+	/*background-image: url(../images/gold-search.png);*/
+	background-repeat: no-repeat;
+	padding: 20px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+.information{
+	display: inline-block;
+}
+
+.description{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	padding: 12px;
+}
+
+.god-container{
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	width: 20%;
+}
+
+.god-container img{
+	width: 117px;
+	height: 117px;
+	position: relative;
+	border: 5px groove #ECEBBE;
+	box-shadow: 0px 0px 40px 0px #000;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.god-container a{
+	text-decoration: none;
+	text-align: center;
+	color: inherit;
+
+}
+
+.god-container h3{
+	text-align: center;
+	margin-bottom: 0px;
+	/*needed for god frames*/
+	/*display: inline-block;
+	vertical-align: top;
+	margin-top: 45px;
+	position: relative;
+	left: -80px;*/
+}
+/*.god-frame{
+	background-image: url(../images/frame.png);
+	width: 117px;
+	height: 117px;
+	position: relative;
+	left: -117px;
+	z-index: 10px;
+	display: inline-block;
+	margin-top: 0px;
+}*/
+
+/*.god-frame:hover, .god-frame:focus{
+	background-repeat: no-repeat;
+	background-image: url(../images/frame-active.png);
+}*/
+.profile{
+	margin: 60px auto;
+	/*width: 33.33%;*/
+	box-shadow: 0px 0px 2px 2px rgba(183, 184, 209, 0.19);
+	background-color:rgba(183, 184, 209, 0.19);
+/*	padding-bottom: 38px;
+*/}
+
+.profile select{
+	border: none;
+	border-bottom: 1px solid #ECEBBE;
+	color: #ECEBBE;
+	background-color: transparent;
+	display: block;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.profile optgroup{
+	color: #000;
+}
+.profile option{
+	color: #000;
+}
+
+.gods{
+	width: 85%;
+	height: auto;
+	margin: 0px auto;
+	position: relative;
+	top: -130px;
+}
+
+.profile .gods input[type='text'], textarea{
+	color: #C7C6A7;
+	padding-left: 5px;
+}
+
+.profile .gods input[type='text'].large{
+	width: 360px;
+	max-width: 360px;
+}
+
+.gods label, .gods select{
+	color: #ECEBBE;
+	margin-left: 30px;
+}
+
+textarea{
+	background-color: transparent;
+	color: #ECEBBE;
+	border: 2px groove #ECEBBE;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 280px;
+}
+div.login{
+	margin: 0px auto;
+	/*width: 33.33%;*/
+
+}
+
+form.login{
+	position: relative;
+	top: -100px;
+	margin: 0px auto;
+	width: 200px;	
+}
+
+.login h2{
+	margin: 15px auto;
+}
+
+.login p{
+	margin-bottom:0px;
+	display: inline-block;
+}
+
+.login p a{
+	color: #ECEBBE;
+}
+.login p a:hover{
+	text-decoration: none;
+}
+.profile input[type='text'], .profile input[type='password']{
+	border: none;
+	border-bottom: 1px solid #ECEBBE;
+	color: #ECEBBE;
+	background-color: transparent;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.login input[type='text'], .login input[type='password'],{
+	border: none;
+	border-bottom: 1px solid #ECEBBE;
+	color: #ECEBBE;
+	background-color: transparent;
+	display: block;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+
+
+.login input[type='submit'], .gods input[type='submit']{
+	background-color: transparent;
+	border: 2px groove #ECEBBE;
+	color: #ECEBBE;
+}
+
+.login-border{
+	background-image: url(../images/top-left.png);
+	width: 205px;
+	height: 209px;
+	display: inline-block;
+}
+
+.login-border:last-of-type{
+	background-image: url(../images/bot-right.png);
+	position: relative;
+	float: right;
+	top: -210px;
+}
+
+.cap{
+	text-transform: capitalize;
+}
+
+.allcap{
+	text-transform: uppercase;
+}
+
+.results li{
+	display: inline-block;
+	list-style: none;
+}
+
+.footer{
+	border-top: 2px groove #ECEBBE;
+}
+
+.footer ul{
+	padding-left: 0px;
+	margin:20px auto;
+	color: #ECEBBE;
+}
+
+.footer li{
+	width: auto;
+	list-style: none;
+	text-transform: capitalize;
+	
+}
+
+.footer a, .footer a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+.footer a:hover, .footer a:focus{
+	text-decoration: none;
+	color: #3C64C8;
+}
+
+@media(max-width:1079px){
+	.container{
+		width: 95%;
+		padding: 0px 2.5%;
+	}
+}
+
+@media(max-width:955px){
+	.container{
+		width: 100%;
+		padding: 0px;
+	}
+	.header .container, .footer .container{
+		width: 98%;
+		padding: 2%;
+	}
+	.god-container{
+		width: 25%;
+	}
+}
+
+@media(max-width:785px){
+	.god-container{
+		width: 33%;
+	}
+}
+
+@media(max-width:600px){
+	.god-container{
+		width: 50%;
+	}
+}
+
+@media(max-width:450px){
+	.login-border{
+		opacity: 0.0;
+		width: 0px;
+		height: 153px;
+	}
+	.profile{
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+	}
+	.god-container{
+		width: 50%;
+	}
+}
+
+@media(max-width:380px){
+	.login-border{
+		height: 60px;
+	}
+	.search{
+	position: absolute;
+	top: 80px;
+	left: 25%;
+	}
+	.filter{
+		margin-left: 60px;
+	}
+	.god-container{
+		width: 100%;
+	}
+
+	.gods{
+		top: 0px;
+	}
+
+	.profile{
+		padding-bottom: 20px;
+	}
+
+	.header p{
+		position: absolute;
+		top: 35px;
+		left: 25%;
+	}
+
+	.header .container h1{
+		text-align: center;
+		width: 100%;
+		display: block;
+	}
+}

@@ -1,0 +1,5 @@
+$con = mysqli_connect("localhost","root","cis213","sara_finalproject");
+				if (!$con)
+				{
+					die('Could not connect: ' . mysql_error());
+				}
